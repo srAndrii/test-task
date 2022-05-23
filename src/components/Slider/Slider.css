@@ -1,0 +1,64 @@
+.corusel{
+    display: flex;
+    margin-top: 100px;
+}
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+
+    min-width: 350px;
+    height: 400px;
+    margin: 0 15px;
+}
+
+.container{
+    width: 75%;
+    height: 100%;
+    margin: 100px auto;
+    /* background-color: aquamarine; */
+}
+
+ .slider__button{
+    position: absolute;
+    bottom: 0, ;
+    right: 0;
+    margin: 7px ;
+    color: #1d025c; 
+    text-decoration: none
+} 
+.carousel.carousel-slider {
+    overflow: inherit;
+}
+
+.carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
+    background-color: transparent;
+    right: -146px;
+}
+
+.carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
+    background-color: transparent;
+    left: -146px;
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+    opacity: 1;
+}
+
+.carousel .control-next.control-arrow:before {
+    content: '';
+    border: solid #0135AD;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 14px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.carousel .control-prev.control-arrow:before {
+    content: '';
+    border: solid #0135AD;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 14px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+} 
+
